@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables — never commit this
+.env
+
+# AWS credentials — never commit these
+.aws/
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Logs
+*.log
+logs/
+
+# Delta/Iceberg local files
+spark-warehouse/
+derby.log
