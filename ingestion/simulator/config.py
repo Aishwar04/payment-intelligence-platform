@@ -28,9 +28,12 @@ KAFKA_CONFIG = {
 # ─────────────────────────────────────────
 
 SIMULATION_CONFIG = {
-    "transactions_per_second": 100,    # how many transactions to generate per second
-    "total_transactions": None,       # None means run forever
-    "late_arrival_probability": 0.05  # 5% of transactions arrive late
+    "transactions_per_second": 100,
+    "designed_tps": 10000,
+    "batch_size": 10,
+    "total_transactions": None,
+    "late_arrival_probability": 0.05,
+    "late_arrival_max_days": 7
 }
 
 # ─────────────────────────────────────────
